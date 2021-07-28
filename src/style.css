@@ -1,0 +1,281 @@
+@font-face {
+  font-family: test;
+  src: url('../static/fonts/Moniqa-BlackHeading.ttf') format(ttf);
+}
+.mp {
+  position: relative;
+  margin-top: 60px;
+  height: 500px;
+  border: 2px solid orange;
+  padding: 20px;
+}
+
+.name {
+  color: #bb9351;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 15em;
+  font-weight: 200;
+  margin-left: 20vw;
+  line-height: 0.7;
+  font-family: 'test';
+}
+
+.maple {
+  position: absolute;
+  top: 0px;
+  right: 200px;
+}
+.pancake {
+  position: absolute;
+  top: 200px;
+  right: -70px;
+}
+
+.slogan {
+  position: absolute;
+  bottom: 15px;
+  font-size: 2em;
+  font-weight: 600;
+  right: 100px;
+}
+
+#overlay {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  z-index: 6;
+  overflow: hidden;
+}
+
+.overlay {
+  background-color: #fe5733;
+}
+
+.overlay-h1 {
+  color: #fff;
+  font-size: 8em;
+  margin: 20px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+  display: block;
+  margin: 10px 70px;
+}
+
+.agency {
+  margin-left: 50px;
+  line-height: 0.7;
+  position: relative;
+  display: inline-block;
+  /* border: 2px solid #fe5733; */
+}
+
+ul a li {
+  padding: 10px;
+  transform: rotate(-90deg);
+
+  padding: 40px;
+}
+
+/* .menu {
+  border: 2px solid #dcdbd9;
+  position: fixed;
+  top: 40%;
+  left: 1%;
+  padding: 20px;
+  text-align: left;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+} */
+.img-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+a {
+  transition: transform 0.3s ease-out;
+}
+
+.project {
+  width: 55vw;
+  position: relative;
+  left: 20%;
+}
+
+.project-desc {
+  position: absolute;
+  left: -1px;
+  margin: -12px;
+  font-size: 4em;
+  z-index: 5;
+}
+
+a:hover {
+  transform: scale(0.9);
+  transition: transform 0.3s ease-out;
+  cursor: pointer;
+}
+
+.dash {
+  width: 5.56845vh;
+  height: 3px;
+  background-color: #dcdbd9;
+}
+
+a:link {
+  text-decoration: none;
+
+  line-height: 1.7;
+  list-style-type: none;
+  font-size: 1.4em;
+}
+
+a:hover {
+  color: #fe5733;
+}
+
+/* a:visited {
+    color: #bb9351;
+  } */
+
+.border {
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: -20px;
+  margin-top: 20px;
+  width: 50%;
+  height: 2px;
+}
+
+.border2 {
+  position: absolute;
+  left: -70px;
+  bottom: -15px;
+  width: 100%;
+  height: 2px;
+}
+
+.underline {
+  background-color: #dcdbd9;
+}
+
+.line {
+  position: relative;
+  width: 5.56845vh;
+}
+
+.studio {
+  font-size: 6em;
+  position: absolute;
+  bottom: 15.8rem;
+  left: 9rem;
+  transform: rotate(-90deg);
+}
+h4 {
+  font-size: 2em;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #e8e5e2;
+  font-family: Arial, Helvetica, sans-serif;
+  display: relative;
+  color: #1e1e1e;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1 100%;
+  margin: 20px;
+  max-width: 100vw;
+}
+
+input {
+  display: block;
+  background-color: #e8e5e2;
+  padding: 15px;
+  margin: 20px;
+  margin-top: 0;
+  width: 300px;
+  border: none;
+  border-bottom-style: groove;
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  max-width: 600px;
+}
+
+/* .dash{
+  display: flex;
+
+} */
+
+h3 {
+  display: inline-block;
+  padding: 15px;
+  border-top: 1px solid #dcdbd9;
+
+  font-size: 3em;
+  margin: 10px;
+}
+
+button {
+  border: 2px solid #dcdbd9;
+  padding: 15px 20px;
+  background-color: #e8e5e2;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 725px) {
+  .col {
+    flex: 1 40%;
+    max-width: 30vw;
+    margin: 20px;
+  }
+}
