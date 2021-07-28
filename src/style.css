@@ -1,6 +1,6 @@
 @font-face {
   font-family: test;
-  src: url('../static/fonts/Moniqa-BlackHeading.ttf') format(ttf);
+  src: url("./fonts/Moniqa-BlackHeading.ttf") format(ttf);
 }
 .mp {
   position: relative;
